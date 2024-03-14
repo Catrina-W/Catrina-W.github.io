@@ -1,0 +1,30 @@
+body {
+    color: white;
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(75, 233, 27);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    background-color: blue;
+    display: inline;
+    list-style-type: none;
+}
+
+li:last-child {
+    background-color: green;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cover {
+    background-color: rgb(207, 47, 127);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20%;
+}
