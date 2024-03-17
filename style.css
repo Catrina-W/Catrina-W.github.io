@@ -1,46 +1,47 @@
-body {
-    color: white;
-    margin: 0px;
+.zone {
+    /* padding: 30px 50px;
+    margin: 40px 60px; */
+    cursor: pointer;
+    /* display: inline-block; */
+    color: #FFF;
+    font-size: 2em;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
 }
 
-nav {
+
+/* NAV */
+.main-nav {
     background-color: rgb(75, 233, 27);
     display: flex;
     flex-wrap: wrap;
-}
-
-nav li {
-    background-color: blue;
-    display: inline;
+    font-size: 0.7em;
     list-style-type: none;
+    margin: 0;
 }
 
-li:last-child {
-    background-color: green;
-    display: flex;
-    justify-content: flex-end;
+li {
+    padding: 20px;
 }
 
-.cover {
-    background-color: rgb(233, 27, 154);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20%;
+a {
+    color: #f5f5f6;
+    text-decoration: none;
 }
 
-.grid {
-    background: rgb(94, 166, 214);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+/* COVER */
+.zone.red {
+    background-color: rgb(207, 20, 111);
 }
 
-.grid figure {
-    background: rgb(43, 42, 42);
-    width: 300px;
+
+/* PROJECT GRID */
+.zone.blue {
+    background-color: rgb(13, 141, 232);
 }
 
-.grid figure img {
-    width: 100px;
+/* FOOTER */
+.zone.yellow {
+    background-color: rgb(255, 191, 0);
 }
