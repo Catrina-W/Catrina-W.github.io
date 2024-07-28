@@ -49,10 +49,11 @@ a {
 
 /* COVER */
 .container.zone {
+    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 100vh;
     padding: 10%;
 }
 
@@ -88,4 +89,4 @@ footer {
 
 .zone.yellow {
     background-color: rgb(255, 191, 0);
-}
+} 
